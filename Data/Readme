@@ -1,0 +1,132 @@
+🚗 1985 Auto Imports Dataset – Machine Learning Project
+📌 Project Title
+Auto Imports Price Prediction using Machine Learning
+
+📄 Description
+This project focuses on building a regression model to predict the price of automobiles using various characteristics of imported vehicles from the 1985 dataset.
+
+The dataset includes technical specifications, insurance risk factors, and relative loss values, offering a rich ground for exploration, visualization, and predictive modeling using machine learning techniques.
+
+🧾 Source Information
+Dataset Name: 1985 Auto Imports Dataset
+
+Creator: Jeffrey C. Schlimmer (Carnegie Mellon University)
+
+Dataset Origin Date: May 19, 1987
+
+Sources:
+
+1985 Model Import Car and Truck Specifications, Ward's Automotive Yearbook
+
+Personal Auto Manuals, Insurance Services Office
+
+Insurance Collision Report, Insurance Institute for Highway Safety
+
+📦 Files Included
+auto_imports.csv — The main dataset (205 rows × 26 attributes)
+
+auto_imports_names.txt — Dataset documentation (attribute info, source, past usage)
+
+🔍 Dataset Overview
+Instances: 205
+
+Attributes: 26
+
+15 continuous
+
+1 integer
+
+10 nominal
+
+Missing Values: Present in 6 attributes (e.g., normalized-losses, horsepower, bore)
+
+📊 Attribute Information
+No.	Attribute	Type	Range/Values
+1	symboling	Integer	-3 to +3
+2	normalized-losses	Continuous	65 to 256
+3	make	Nominal	e.g., alfa-romero, audi, bmw, etc.
+4	fuel-type	Nominal	diesel, gas
+5	aspiration	Nominal	std, turbo
+6	num-of-doors	Nominal	four, two
+7	body-style	Nominal	hardtop, wagon, sedan, etc.
+8	drive-wheels	Nominal	fwd, rwd, 4wd
+9	engine-location	Nominal	front, rear
+10	wheel-base	Continuous	86.6 to 120.9
+11	length	Continuous	141.1 to 208.1
+12	width	Continuous	60.3 to 72.3
+13	height	Continuous	47.8 to 59.8
+14	curb-weight	Continuous	1488 to 4066
+15	engine-type	Nominal	dohc, ohc, rotor, etc.
+16	num-of-cylinders	Nominal	three, four, six, etc.
+17	engine-size	Continuous	61 to 326
+18	fuel-system	Nominal	mfi, mpfi, 2bbl, etc.
+19	bore	Continuous	2.54 to 3.94
+20	stroke	Continuous	2.07 to 4.17
+21	compression-ratio	Continuous	7 to 23
+22	horsepower	Continuous	48 to 288
+23	peak-rpm	Continuous	4150 to 6600
+24	city-mpg	Continuous	13 to 49
+25	highway-mpg	Continuous	16 to 54
+26	price	Continuous	5118 to 45400
+
+📉 Missing Values
+Attribute	Missing Count
+normalized-losses	41
+num-of-doors	2
+bore	4
+stroke	4
+horsepower	2
+peak-rpm	2
+price	4
+
+🧠 Machine Learning Goal
+Objective: Predict the price of the car (price attribute) using the rest of the features.
+
+Target Variable: price
+
+Potential Models:
+
+Linear Regression
+
+Random Forest Regressor
+
+Gradient Boosting
+
+XGBoost
+
+Steps:
+
+Data Cleaning (handling missing values)
+
+Feature Engineering (encoding, scaling)
+
+Exploratory Data Analysis
+
+Model Building
+
+Model Evaluation
+
+Deployment (optional: Flask + Power BI for visualization)
+
+🔍 Past Research Usage
+Used in:
+
+Kibler et al. (1989) – Instance-based learning vs. linear regression
+
+Achieved:
+
+11.84% error using IBL (k-NN)
+
+14.12% error using Linear Regression
+
+🧰 Tools & Libraries Suggested
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+
+Scikit-learn
+
+Jupyter Notebook
+
+Optional: Power BI or Excel for visualization
+
+📝 License
+The dataset is public and was distributed for academic and research use
