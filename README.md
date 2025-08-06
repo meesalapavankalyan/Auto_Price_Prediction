@@ -48,6 +48,4 @@ This notebook combines all tasks into a single workflow and is suitable for fina
 
 ---
 
-**Author:** Meesala Pavankalyan  
-**LinkedIn:** [pavankalyan8374](https://www.linkedin.com/in/pavankalyan8374/)  
-**GitHub:** [meesalapavankalyan](https://github.com/meesalapavankalyan)
+
